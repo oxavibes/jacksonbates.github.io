@@ -1,0 +1,81 @@
+body {
+  background-color:#EEE;
+  color: #444;
+  margin-top: 60px;
+}
+
+.larger-text {
+  font-size:1.5em;
+  padding:15px;
+  text-align: justify;
+}
+
+hr {
+  border-width:4px;
+  border-radius:4px;
+  border-color:#888;
+}
+
+.profilepic {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+span.glyphicon-folder-open {
+    font-size: 2.5em;
+}
+
+span.glyphicon-envelope {
+  font-size: 2.5em;
+}
+
+.fa {
+  font-size: 2em;
+  padding:15px;
+  border-style:solid;
+  border-radius:50%;
+}
+
+.bottom-margin {
+  margin-bottom: 25px;
+}
+
+/* The CSS after this point addresses the issue of thumbnails having different heights on large screens depending on content. Code from http://www.bootply.com/126437, Carol Skelly: http://www.bootply.com/users/cskelly @carolskelly */
+
+.row-flex, .row-flex > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
+
+.row-flex-wrap {
+	-webkit-flex-flow: row wrap;
+    align-content: flex-start;
+    flex:0;
+}
+
+.row-flex > div[class*='col-'], .container-flex > div[class*='col-'] {
+	 margin:-.2px; /* hack adjust for wrapping */
+}
+
+.container-flex > div[class*='col-'] div,.row-flex > div[class*='col-'] div {
+	width:100%;
+}
+
+
+.flex-col {
+    display: flex;
+    display: -webkit-flex;
+    flex: 1 100%;
+	flex-flow: column nowrap;
+}
+
+.flex-grow {
+	display: flex;
+    -webkit-flex: 2;
+    flex: 2;
+}

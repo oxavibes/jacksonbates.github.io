@@ -3,8 +3,141 @@
   <head>
     <meta charset="utf-8">
     <title>Jackson Bates</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" charset="utf-8"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="container">
+  <nav class="navbar navbar-default navbar-fixed-top">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">JB</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#top">About</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+
+
+  </nav>
+  <!-- /.navbar-collapse -->
+  <div class="row"></div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-8">
+      <p class="larger-text">I'm Jackson: a teacher, coder, gamer; comfortable basically anywhere you want to put me on the Geek-to-Nerd spectrum. Currently on leave from teaching full-time, I am studying a Masters in Teaching and working towards Full Stack Web Developer Certification
+        through <a href="http://freecodecamp.com" target="_blank">Free Code Camp</a>.</p>
+    </div>
+    <div class="col-xs-12 col-sm-4"><img src="https://pbs.twimg.com/profile_images/624055501764976644/MkjYp-Jt.png" class="img-responsive img-circle profilepic"><br></div>
+  </div>
+
+  <!-- Portfolio section -->
+
+  <div class="row">
+    <div class="col-xs-5">
+      <a id="Portfolio"></a>
+      <hr>
+    </div>
+    <div class="col-xs-2  text-center"><span class="glyphicon glyphicon-folder-open"></span></div>
+    <div class="col-xs-5">
+      <hr>
+    </div>
+  </div>
+
+  <div class="row">
+    <h3 class="text-center">Portfolio</h3>
+  </div>
+
+  <div class="row row-flex row-flex-wrap">
+    <div class="col-xs-12 col-md-4">
+      <div class="thumbnail">
+        <img src="https://jacksonbates.files.wordpress.com/2016/04/twitch.png" alt="...">
+        <div class="caption">
+          <h3>Twitch Status Viewer</h3>
+          <p>Most recent project, built using HTML, CSS, Javascript, jQuery and Bootstrap. Uses the Twitch.tv API to determine status of particular users.</p>
+          <p><a href="http://codepen.io/Malgalin/full/ONQoyz" class="btn btn-primary" target="_blank" role="button">View project</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <div class="thumbnail">
+        <img src="https://jacksonbates.files.wordpress.com/2016/04/wiki.png" alt="...">
+        <div class="caption">
+          <h3>Wikipedia Viewer</h3>
+          <p>Built using HTML, CSS, Javascript, jQuery and Bootstrap. Uses the Wikipedia API to show search results or offer a random page.</p>
+          <p><a href="http://codepen.io/Malgalin/full/PNEvJo" class="btn btn-primary" target="_blank" role="button">View project</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <div class="thumbnail">
+        <img src="https://jacksonbates.files.wordpress.com/2016/04/weather.png" alt="...">
+        <div class="caption">
+          <h3>Local weather app</h3>
+          <p>Built using HTML, CSS, Javascript, jQuery and Bootstrap. Returns local weather from OpenWeatherMap API and background image responds accordingly. User can switch between metric and imperial units.</p>
+          <p><a href="http://codepen.io/Malgalin/full/dMZvWe/" target="_blank" class="btn btn-primary" role="button">View project</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-flex row-flex-wrap">
+    <div class="col-xs-12 col-md-4">
+      <div class="thumbnail">
+        <img src="https://jacksonbates.files.wordpress.com/2016/04/quote.png" alt="...">
+        <div class="caption">
+          <h3>Random Quote Generator</h3>
+          <p>Built using HTML, CSS, Javascript, jQuery and Bootstrap. Returns Random, Tweetable quote, using the forismatic.com API.</p>
+          <p><a href="http://codepen.io/Malgalin/full/EKbxrg/" target="_blank" class="btn btn-primary" role="button">View project</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-5">
+      <a id="Contact"></a>
+      <hr>
+    </div>
+    <div class="col-xs-2  text-center"><span class="glyphicon glyphicon-envelope"></span></div>
+    <div class="col-xs-5">
+      <hr>
+    </div>
+  </div>
+
+  <div class="row">
+    <h3 class="text-center">Contact</h3>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 text-center bottom-margin">
+      <a href="http://twitter.com/jacksonbates" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="http://youtube.com/malgalin" target="_blank"><i class="fa fa-youtube"></i></a>
+      <a href="http://github.com/jacksonbates" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="http://au.linkedin.com/in/JacksonBoerBates" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+
+  </div>
+
+</div>
+<!-- /.container-->
   </body>
 </html>
