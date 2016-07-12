@@ -12,32 +12,31 @@
   </head>
   <body>
     <div class="container">
-
-    <nav class="navbar navbar-fixed-top navbar-light bg-faded">
-      <div class="nav navbar-nav">
-        <a class="nav-item nav-link active" href="#top">About <span class="sr-only">(current)</span></a>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#frontend">Front End</a>
-                <a class="dropdown-item" href="#backend">Back End</a>
-                <a class="dropdown-item" href="#fullstack">Full Stack</a>
-              </div>
-          </li>
-        <a class="nav-item nav-link" href="#contact">Contact</a>
-      </div>
-    </nav>
-
-  <div class="row">
-    <div class="col-xs-12 col-md-6">
-      <p class="larger-text">Hi, I'm Jackson. I love building websites and web-based software. Here are some recent projects I'm proud of.</p>
-    </div>
-    <div class="col-xs-12 col-md-6 top-pad">
-      <img src="./assets/jackson bates headshot.png" alt='A picture of Jackson' class="img-responsive img-circle profilepic center-block"><br></div>
-  </div>
+      <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+        <div class="nav navbar-nav">
+          <a class="nav-item nav-link active" href="#top">About</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#frontend">Front End</a>
+                  <a class="dropdown-item" href="#backend">Back End</a>
+                  <a class="dropdown-item" href="#fullstack">Full Stack</a>
+                </div>
+            </li>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+          <a class='nav-item nav-link' href='http://jacksonbates.me/blog'>Blog</a>
+        </div>
+      </nav>
+      <a id="about"></a>
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <p class="larger-text">Hi, I'm Jackson. I love building websites and web-based software. Here are some recent projects I'm proud of.</p>
+        </div>
+        <div class="col-xs-12 col-md-6 top-pad">
+          <img src="./assets/jackson bates headshot.png" alt='A picture of Jackson' class="img-responsive img-circle profilepic center-block"><br></div>
+        </div>
   <!-- Portfolio section -->
   <a id="frontend"></a>
-  <div class="spacer"></div>
   <div class="row">
     <div class="col-xs-0 col-md-4">
       <hr>
@@ -118,7 +117,6 @@
     </div>
   </div>
 </div>
-  <div class="spacer"></div>
   <a id="backend"></a>
 
   <div class="row">
@@ -202,34 +200,6 @@
     </div>
   </div>
 
-  <!--
-
-
-    <div class="col-xs-12 col-md-4">
-      <div class="thumbnail">
-        <img src="https://jacksonbates.files.wordpress.com/2016/04/weather.png" alt="Local weather app screenshot">
-        <div class="caption">
-          <h3>Local weather app</h3>
-          <p>Built using HTML, CSS, Javascript, jQuery and Bootstrap. Returns local weather from OpenWeatherMap API and background image responds accordingly. User can switch between metric and imperial units.</p>
-          <p><a href="http://jacksonbates.me/fcc-local-weather" target="_blank" class="btn btn-primary" role="button">View project</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row row-flex row-flex-wrap">
-    <div class="col-xs-12 col-md-4">
-      <div class="thumbnail">
-        <img src="https://jacksonbates.files.wordpress.com/2016/04/quote.png" alt="Quote generator screenshot">
-        <div class="caption">
-          <h3>Random Quote Generator</h3>
-          <p>Built using HTML, CSS, Javascript, jQuery and Bootstrap. Returns Random, Tweetable quote, using the forismatic.com API.</p>
-          <p><a href="http://jacksonbates.me/fcc-quote-machine" target="_blank" class="btn btn-primary" role="button">View project</a></p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <div class="spacer"></div>
   <a id="contact"></a>
 
   <div class="row">
@@ -254,9 +224,7 @@
       <a href="http://github.com/jacksonbates" target="_blank"><i class="fa fa-github"></i></a>
       <a href="http://au.linkedin.com/in/JacksonBoerBates" target="_blank"><i class="fa fa-linkedin"></i></a>
     </div>
-
   </div>
-
 </div>
 <!-- /.container-->
 <!-- Scripts below this point -->
@@ -264,5 +232,21 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" charset="utf-8"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+<script type="text/javascript">
+$(function() {
+$('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+    </script>
   </body>
 </html>
