@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 /*#about {
   height: 100%;
@@ -16,7 +16,7 @@ section {
 }
 
 body {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color:#eee;
   color: #444;
   /*margin-top: 60px;*/
