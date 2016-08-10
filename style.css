@@ -51,7 +51,7 @@ hr {
 @media (max-width: 767px) {
   .larger-text {
     font-size:1em;
-    padding:30px 15px 15px 80px;
+    padding:30px 5px 0 5px;
     text-align: left;
   }
   
