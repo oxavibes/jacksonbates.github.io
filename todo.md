@@ -2,7 +2,7 @@
 
 - [x] Design component structure for the portfolio
 - [x] List json file requirements for project cards
-- [ ] Create prototype json file
+- [x] Create prototype json file
 - [ ] Prototype portfolio components
 - [ ] Choose the appropriate portfolio pieces
 - [ ] For each piece, ensure the screenshots, links, and readme are valid
