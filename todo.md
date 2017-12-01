@@ -1,7 +1,7 @@
 # Todo
 
-- [ ] Design component structure for the portfolio
-- [ ] List json file requirements for project cards
+- [x] Design component structure for the portfolio
+- [x] List json file requirements for project cards
 - [ ] Create prototype json file
 - [ ] Prototype portfolio components
 - [ ] Choose the appropriate portfolio pieces
