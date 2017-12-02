@@ -1,4 +1,4 @@
-[
+const projects = [
     {
         "name": "Pomodoro Timer",
         "screenshot_url": "https://github.com/JacksonBates/fcc-pomodoro/blob/gh-pages/screenshot.png",
@@ -7,3 +7,5 @@
         "live_link": "https://jacksonbates.github.io/fcc-pomodoro" 
     }
 ]
+
+export default projects;
