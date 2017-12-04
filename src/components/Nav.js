@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <nav>
       <div>
         <span>Jackson Bates </span>
-        <a href='/'>About</a> |&nbsp;
-        <a href='#work'>Work</a> |&nbsp;
-        <a href='#contact'>Contact</a>
+        <button onClick={props.handleAbout}>About</button>
+        <button onClick={props.handleWork}>Work</button>
+        <button onClick={props.handleContact}>Contact</button>
       </div>
     </nav>
   )

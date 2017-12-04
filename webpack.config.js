@@ -21,16 +21,11 @@ module.exports = (env) => {
           'css-loader',
           'sass-loader'
         ]
-      }, { 
-        test: /\.(png|jpg)$/,
-        loader: 'url-loader' 
       }],
     },
     devtool: isProduction ? "source-map" : "cheap-module-eval-source-map",
     devServer: {
-      historyApiFallback: true,
       contentBase: path.join(__dirname, 'public'),
-      hot: true
     }
   }
 }
