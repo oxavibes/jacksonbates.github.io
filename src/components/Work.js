@@ -7,10 +7,10 @@ const Work = (props) => {
         {props.projects.map((project, i) => {
           return (
             <div key={i} className='project-card'>
-              <p>{project.name}</p>
+              <h2 className='project-card__title'>{project.name}</h2>
               <img className='project-card__image' src={project.screenshot_url} alt={`${project.name} screenshot`} />
-              <p>{project.github_link}</p>
-              <p>{project.live_link}</p>              
+              <p><a className='project-card__link' href={`${project.github_link}`}>GitHub</a></p>
+              <p><a className='project-card__link' href={`${project.live_link}`}>Visit</a></p>              
             </div>
           );
         })}

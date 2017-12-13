@@ -10,13 +10,25 @@
 
 .project-card {
   width: 300px;
-  background-color: grey;
   padding: $xs-size;
   text-align: center;
+}
+
+.project-card__title {
+  font-family: $serif;
+  font-size: $l-size;
 }
 
 .project-card__image {
   margin: 0 auto;
   max-width: 200px;
   max-height: 200px;
+}
+
+.project-card__link:link, .project-card__link:visited, .project-card__link:hover, .project-card__link:active {
+  font-family: $fancy;
+  font-size: $m-size;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
 }
