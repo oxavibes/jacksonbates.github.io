@@ -1,0 +1,22 @@
+.work__section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 6px;
+  grid-row-gap:6px;
+  justify-items: center;
+  margin: 0 10px;
+}  
+
+
+.project-card {
+  width: 300px;
+  background-color: grey;
+  padding: $xs-size;
+  text-align: center;
+}
+
+.project-card__image {
+  margin: 0 auto;
+  max-width: 200px;
+  max-height: 200px;
+}
