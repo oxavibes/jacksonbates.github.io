@@ -3,7 +3,7 @@ import React from 'react';
 const Work = (props) => {
   return (
     <div>
-      <section id='work' className='work__section'>
+      <section id='work' className='work__section fadeInUp'>
         {props.projects.map((project, i) => {
           return (
             <div key={i} className='project-card'>
