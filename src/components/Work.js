@@ -3,13 +3,12 @@ import React from 'react';
 const Work = (props) => {
   return (
     <div>
-      <section id='work'>
-        <h1>Work</h1>
+      <section id='work' className='work__section'>
         {props.projects.map((project, i) => {
           return (
-            <div key={i}>
+            <div key={i} className='project-card'>
               <p>{project.name}</p>
-              <img src={project.screenshot_url} alt={`${project.name} screenshot`} />
+              <img className='project-card__image' src={project.screenshot_url} alt={`${project.name} screenshot`} />
               <p>{project.github_link}</p>
               <p>{project.live_link}</p>              
             </div>
