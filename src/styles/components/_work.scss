@@ -2,11 +2,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-column-gap: 6px;
-  grid-row-gap:6px;
+  grid-row-gap: 6px;
   justify-items: center;
   margin: 0 10px;
-}  
-
+}
 
 .project-card {
   width: 300px;
@@ -25,7 +24,10 @@
   max-height: 200px;
 }
 
-.project-card__link:link, .project-card__link:visited, .project-card__link:hover, .project-card__link:active {
+.project-card__link:link,
+.project-card__link:visited,
+.project-card__link:hover,
+.project-card__link:active {
   font-family: $fancy;
   font-size: $m-size;
   text-decoration: none;
