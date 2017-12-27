@@ -6,7 +6,7 @@ const Nav = (props) => {
       <div className='nav__link-block'>
          <button className='nav__link' onClick={props.handleAbout}>About</button>
         / <button className='nav__link' onClick={props.handleWork}>Work</button>
-        / <button className='nav__link' onClick={props.handleContact}>Contact</button>
+        / <button className='nav__link' onClick={props.handleSocial}>Social</button>
         
       </div>
     </nav>

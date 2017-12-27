@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import About from './About';
 import Work from './Work';
-import Contact from './Contact';
+import Social from './Social';
 import projects from '../../projects';
 
 export default class PortfolioApp extends React.Component {
@@ -16,8 +16,8 @@ export default class PortfolioApp extends React.Component {
     handleWork = () => {
         this.setState(()=> ({show: 'work'}))
     }
-    handleContact = () => {
-        this.setState(()=> ({show: 'contact'}))
+    handleSocial = () => {
+        this.setState(()=> ({show: 'social'}))
     }
     render() {
         return (
@@ -25,11 +25,11 @@ export default class PortfolioApp extends React.Component {
                 <Nav 
                 handleAbout = {this.handleAbout}
                 handleWork = {this.handleWork}
-                handleContact = {this.handleContact}
+                handleSocial = {this.handleSocial}
                 />
                 {this.state.show === 'about' && <About />}
                 {this.state.show === 'work' && <Work projects={this.state.projects}/>}
-                {this.state.show === 'contact' && <Contact />}
+                {this.state.show === 'social' && <Social />}
             </div>
         )
     }
