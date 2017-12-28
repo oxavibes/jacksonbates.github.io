@@ -16,10 +16,15 @@
   font-size: $m-size;
 }
 
-.nav__link:focus,
+.nav__link:hover,
 .nav__link:active {
   outline: 0;
-  border-bottom: 2px solid lightgray;
+  color: $deep-purple;
+}
+
+.nav__link:focus {
+  outline: 0;
+  color: $light-purple;
 }
 
 @media (min-width: $desktop-breakpoint) {

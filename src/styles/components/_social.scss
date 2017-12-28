@@ -9,15 +9,19 @@
 
 .social__background {
   height: calc(100vh - 85px);
-  background-image: url(//discourse-user-assets.s3.amazonaws.com/original/3X/8/e/8e879b3208c9eb8bf249d9af2b2c128ef90a2e90.jpg);
   background-size: cover;
   background-position: center;
+  background-image: url("//discourse-user-assets.s3.amazonaws.com/original/3X/8/e/8e879b3208c9eb8bf249d9af2b2c128ef90a2e90.jpg");
 }
 
 .social__icon {
   width: 60px;
   padding: 10px;
   padding-top: 30vh;
+}
+
+.social__icon:hover {
+  fill: $deep-purple;
 }
 
 @media (min-width: $desktop-breakpoint) {
