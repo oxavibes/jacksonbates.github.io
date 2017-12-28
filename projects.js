@@ -60,15 +60,6 @@ const projects = [
       "An Angular 2 app that live previews Markdown text in real time.",
     github_link: "https://github.com/JacksonBates/ng-markdown",
     live_link: "https://jacksonbates.github.io/ng-markdown"
-  },
-  {
-    name: "Test",
-    screenshot_url:
-      "http://via.placeholder.com/300x175/54428E/93C096?text=Test",
-    details_text:
-      "An Angular 2 app that live previews Markdown text in real time.",
-    github_link: "https://github.com/JacksonBates",
-    live_link: ""
   }
 ];
 
