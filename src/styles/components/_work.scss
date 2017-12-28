@@ -25,12 +25,19 @@
 }
 
 .project-card__link:link,
-.project-card__link:visited,
+.project-card__link:visited {
+  font-family: $fancy;
+  font-size: $m-size;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
 .project-card__link:hover,
 .project-card__link:active {
   font-family: $fancy;
   font-size: $m-size;
   text-decoration: none;
-  color: black;
+  color: $deep-purple;
   font-weight: bolder;
 }

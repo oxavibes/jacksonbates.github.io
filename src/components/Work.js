@@ -20,8 +20,7 @@ const Work = props => {
                 >
                   GitHub
                 </a>
-              </p>
-              <p>
+                &nbsp; | &nbsp;
                 <a className="project-card__link" href={`${project.live_link}`}>
                   Visit
                 </a>
