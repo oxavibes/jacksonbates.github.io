@@ -13,7 +13,7 @@ const Work = props => {
                 alt={`${project.name} screenshot`}
               />
               <h2 className="project-card__title">{project.name}</h2>
-              <p>
+              <p className="project-card__links">
                 <a
                   className="project-card__link"
                   href={`${project.github_link}`}
@@ -25,6 +25,7 @@ const Work = props => {
                   Visit
                 </a>
               </p>
+              <p className="project-card__details">{project.details_text}</p>
             </div>
           );
         })}

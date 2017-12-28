@@ -14,8 +14,17 @@
 }
 
 .project-card__title {
+  margin: $xs-size;
   font-family: $serif;
   font-size: $l-size;
+}
+
+.project-card__details {
+  text-align: left;
+}
+
+.project-card__links {
+  margin: 0;
 }
 
 .project-card__image {
