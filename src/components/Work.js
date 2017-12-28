@@ -20,10 +20,17 @@ const Work = props => {
                 >
                   GitHub
                 </a>
-                &nbsp; | &nbsp;
-                <a className="project-card__link" href={`${project.live_link}`}>
-                  Visit
-                </a>
+                {project.live_link !== "" ? (
+                  <span>
+                    &nbsp; | &nbsp;
+                    <a
+                      className="project-card__link"
+                      href={`${project.live_link}`}
+                    >
+                      Web
+                    </a>
+                  </span>
+                ) : null}
               </p>
               <p className="project-card__details">{project.details_text}</p>
             </div>
