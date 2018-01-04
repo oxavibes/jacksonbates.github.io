@@ -2,7 +2,7 @@ const projects = [
   {
     name: "Portfolio",
     screenshot_url:
-      "http://via.placeholder.com/300x175/54428E/93C096?text=This portfolio",
+      "https://raw.githubusercontent.com/JacksonBates/jacksonbates.github.io/master/assets/portfolio.png",
     details_text:
       "A snazzy React app allowing me to update the portfolio by editing one simple json file! BEM/SCSS, some css animations under the hood.",
     github_link: "https://github.com/JacksonBates/jacksonbates.github.io",
