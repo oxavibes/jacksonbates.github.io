@@ -11,7 +11,7 @@ const projects = [
   {
     name: "Pairboard",
     screenshot_url:
-      "http://via.placeholder.com/300x175/54428E/93C096?text=Pairboard",
+      "https://raw.githubusercontent.com/JacksonBates/jacksonbates.github.io/master/assets/pairboard.png",
     details_text:
       "(In development) An open source pair programming organisation app, to be launched 2018.",
     github_link: "https://github.com/Pairboard/Pairboard",
