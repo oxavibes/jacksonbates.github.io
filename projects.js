@@ -46,7 +46,7 @@ const projects = [
   {
     name: "Voting App",
     screenshot_url:
-      "http://via.placeholder.com/300x175/54428E/93C096?text=Pollz",
+      "https://raw.githubusercontent.com/JacksonBates/jacksonbates.github.io/master/assets/pollz.png",
     details_text:
       "A full stack app for conducting polls, utilizing passwordless authentication.",
     github_link: "https://github.com/JacksonBates/voting-app",
