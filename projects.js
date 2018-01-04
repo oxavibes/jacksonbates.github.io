@@ -20,7 +20,7 @@ const projects = [
   {
     name: "FCC Scraper",
     screenshot_url:
-      "http://via.placeholder.com/300x175/54428E/93C096?text=FCC Archiver",
+      "https://raw.githubusercontent.com/JacksonBates/jacksonbates.github.io/master/assets/scraper.png",
     details_text:
       "A web-scraping utility that delivers a zip file of code solutions for archival purposes.",
     github_link: "https://github.com/JacksonBates/fcc-scraper",
