@@ -55,7 +55,7 @@ const projects = [
   {
     name: "Markdown Previewer",
     screenshot_url:
-      "http://via.placeholder.com/300x175/54428E/93C096?text=Markdown",
+      "https://raw.githubusercontent.com/JacksonBates/jacksonbates.github.io/master/assets/markdown.png",
     details_text:
       "An Angular 2 app that live previews Markdown text in real time.",
     github_link: "https://github.com/JacksonBates/ng-markdown",
