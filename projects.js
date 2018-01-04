@@ -29,7 +29,7 @@ const projects = [
   {
     name: "Tweet delete bot",
     screenshot_url:
-      "http://via.placeholder.com/300x175/54428E/93C096?text=Twitter Bot",
+      "https://raw.githubusercontent.com/JacksonBates/jacksonbates.github.io/master/assets/tweetbot.png",
     details_text:
       "A personal bot that deletes Twitter activity older than 10 days.",
     github_link: "https://github.com/JacksonBates/tweet-delete-bot",
