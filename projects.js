@@ -38,7 +38,7 @@ const projects = [
   {
     name: "Recipe App",
     screenshot_url:
-      "http://via.placeholder.com/300x175/54428E/93C096?text=Recipe App",
+      "https://raw.githubusercontent.com/JacksonBates/jacksonbates.github.io/master/assets/recipe.png",
     details_text: "A React app for saving favouite recipes.",
     github_link: "https://github.com/JacksonBates/fcc-recipe-react",
     live_link: "https://jacksonbates.github.io/fcc-recipe-react/public"
