@@ -12,7 +12,7 @@
     <title>Jackson Bates | Software Engineer</title>
   </head>
   <body>
-    <section class="flex-parent">
+    <section class="flex-parent screen landing">
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -27,16 +27,21 @@
         <h2 class="typography-heading">Software Engineer</h2>
       </header>
     </section>
-    <section id="about">
+    <section id="about" class="screen about">
       <h1 class="center top-pad typography-heading">About Me</h1>
       <section class="col-3-flex">
-        <img height="420vh" src="jackson_1.jpg" alt="Jackson Bates" />
+        <div class="right-skew">
+          <img height="420vh" src="jackson_1.jpg" alt="Jackson Bates" />
+        </div>
         <article>
           <h2 class="left">Who am I</h2>
           <p class="left">
             I am currently a software engineer at
-            <a href="https://silverpond.com.au">Silverpond</a>, a Machine
-            Learning company in Melbourne, Australia.
+            <span class="fancy-link-wrapper"
+              ><a class="fancy-link" href="https://silverpond.com.au"
+                >Silverpond</a
+              ></span
+            >, a Machine Learning company in Melbourne, Australia.
           </p>
           <p class="left">
             As a developer that has always sought out communities, I have been
@@ -45,9 +50,19 @@
           </p>
           <p class="left">
             I am currently one of the
-            <a href="https://freecodecamp.org/forum">forum</a> moderators, and a
-            writer for the publication
-            <a href="https://freecodecamp.org/news">Developer News</a>.
+            <span class="fancy-link-wrapper"
+              ><a class="fancy-link" href="https://freecodecamp.org/forum"
+                >forum</a
+              ></span
+            >
+            moderators, and a writer for the publication
+            <span class="fancy-link-wrapper"
+              ><a
+                class="fancy-link"
+                href="https://freecodecamp.org/news/author/jacksonbates"
+                >Developer News</a
+              ></span
+            >.
           </p>
         </article>
 
@@ -68,16 +83,40 @@
         </article>
       </section>
     </section>
-    <section id="skills">
+    <section id="skills" class="screen skills">
       <h1 class="center top-pad typography-heading">Skills</h1>
+      <p class="wide-container">
+        I've worked professionally with a range of languages and technology
+        stacks, but my heart is always in JavaScript. The bulk of my
+        professional work is with Ruby on Rails and React, but I've also had
+        occasion to work with Python, Clojurescript, and PHP.
+      </p>
+      <ul>
+        <li>JavaScript</li>
+        <li>Ruby</li>
+        <li>Python</li>
+        <li>PHP</li>
+        <li>Clojurescript</li>
+      </ul>
+      <ul>
+        <li>Node.js</li>
+        <li>Rails</li>
+        <li>Postgresql</li>
+        <li>MongoDB</li>
+      </ul>
+      <ul>
+        <li>git</li>
+        <li>CI/CD</li>
+        <li>AWS</li>
+      </ul>
     </section>
-    <section id="experience">
+    <section id="experience" class="screen">
       <h1 class="center top-pad typography-heading">Experience</h1>
     </section>
-    <section id="portfolio">
+    <section id="portfolio" class="screen">
       <h1 class="center top-pad typography-heading">Portfolio</h1>
     </section>
-    <section id="connect">
+    <section id="connect" class="screen">
       <h1 class="center top-pad typography-heading">Connect</h1>
     </section>
   </body>
