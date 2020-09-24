@@ -82,6 +82,27 @@ article {
   padding: 1em;
 }
 
+.sample-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 1px #e83e8c;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.portfolio-links {
+  display: flex;
+  justify-content: right;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
